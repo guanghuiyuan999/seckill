@@ -11,4 +11,5 @@ public interface SuccessKilledDao {
    int insertSuccessKilled(@Param("seckillId")long seckillId, @Param("userPhone")long userPhone);
     //根据id查询successKilled并携带秒杀对象实体
     SuccessKilled queryByIdWithSeckill(@Param("seckillId")long seckillId, @Param("userPhone")long userPhone);
+
 }
