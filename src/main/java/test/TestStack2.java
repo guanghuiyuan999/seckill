@@ -34,7 +34,7 @@ public class TestStack2 {
         double d = 2.12345676896;
         System.out.println(d);
 
-        char c = '中';
+        char c = 'a';
         System.out.println(c);
 
         short s1 = 1;

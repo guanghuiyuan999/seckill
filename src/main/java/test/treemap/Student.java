@@ -8,11 +8,11 @@ public class Student implements Comparable<Student> {
     String name;
     int score;
 
-    public int compareTo(Student o) {
-        if (o.score < this.score) {
+    public int compareTo(Student student) {
+        if (student.score < this.score) {
             return 1;
         }
-        if (o.score > this.score) {
+        if (student.score > this.score) {
             return -1;
         }
         return 0;
