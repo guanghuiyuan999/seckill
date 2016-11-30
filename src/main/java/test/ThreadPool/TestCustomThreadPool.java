@@ -7,6 +7,9 @@ import java.util.concurrent.TimeUnit;
 
 import org.junit.Test;
 
+/**
+ * java 程序性能优化
+ */
 public class TestCustomThreadPool {
 	public class MyThread implements Runnable{
 		protected String name;
